@@ -72,6 +72,8 @@ React-Currency-Converter/
     ├── package.json
     ├── vite.config.js
     └── index.html
+
+
 ⚙️ How It Works
 
 The application follows a simple flow:
@@ -87,6 +89,8 @@ Fetch exchange rate
 Calculate conversion
         ↓
 Display converted amount
+
+
 🪝 Custom Hook
 
 A custom React Hook called useCurrencyInfo is used to fetch currency exchange-rate data.
@@ -98,6 +102,8 @@ The hook fetches the exchange-rate data whenever the selected source currency ch
 Example API endpoint:
 
 https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
+
+
 🔄 Currency Swap
 
 The application includes a swap button that exchanges the selected currencies.
@@ -112,6 +118,7 @@ INR → USD
 
 The entered amount and converted amount are also swapped accordingly.
 
+
 📦 Installation
 1. Clone the repository
 git clone https://github.com/Annu9111/React-Currency-convertor.git
@@ -125,6 +132,8 @@ npm run dev
 The application will run locally at:
 
 http://localhost:5173
+
+
 🏗️ Build for Production
 
 To create a production build:
@@ -134,6 +143,8 @@ npm run build
 The optimized production files will be generated inside:
 
 dist/
+
+
 🚀 Deployment
 
 This project is deployed using Vercel.
@@ -144,6 +155,8 @@ Build Configuration
 Framework: Vite
 Build Command: npm run build
 Output Directory: dist
+
+
 📚 React Concepts Practiced
 
 This project helped me practice several important React concepts:
@@ -165,6 +178,8 @@ Parent-to-child communication
 Callback functions
 Component reusability
 Vercel deployment
+
+
 🎯 Learning Goals
 
 The main goal of this project was to understand how React applications can communicate with external APIs and update the UI dynamically based on user input.
