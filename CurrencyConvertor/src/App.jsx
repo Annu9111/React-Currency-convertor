@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-    <h1 className='text-3xl bg-orange-400 text-center'>🏆Currency Convertor</h1>
+    <h1 className='text-3xl bg-blue-600 text-center text-white'>🏆Currency Convertor🏆</h1>
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
