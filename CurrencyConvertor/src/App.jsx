@@ -4,7 +4,7 @@ import useCurrencyInfo from './hooks/useCurrencyInfo'
 // import heroImg from './assets/hero.png'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from './assets/vite.svg'
-import './App.css'
+// import './App.css'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,6 +16,8 @@ function App() {
   const currencyInfo = useCurrencyInfo(from)
 
   const options = Object.keys(currencyInfo)
+//   console.log("currencyInfo:", currencyInfo)
+// console.log("options:", options)
 
   const swap = () =>{
     setFrom(to)
@@ -51,8 +53,9 @@ function App() {
                                 label="From"
                                 amount={amount}
                                 currencyOptions={options}
-                                onCurrencyChange={(currency)=>setAmount(amount)}
+                                onCurrencyChange={(currency)=>setFrom(currency)}
                                 selectCurrency={from}
+                                onAmountChange={(amount)=> setAmount(amount)}
                                 
                             />
                         </div>
